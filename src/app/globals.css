@@ -15,8 +15,6 @@ html, body {
   width: 100%;
   background-color: var(--dark);
 }
-
-
 .container {
   display: flex;
   min-height: 100vh;
@@ -24,7 +22,6 @@ html, body {
   justify-content: center;
   flex-direction: column;
 }
-
 .gameboard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,7 +30,6 @@ html, body {
   height: 300px;
   border: 2px solid var(--med);
 }
-
 .square {
   border: 2px solid var(--med);
   cursor: pointer;
@@ -50,14 +46,12 @@ html, body {
 .square:hover {
   background-color: rgba(31, 125, 83, 0.06);
 }
-
 .square.circle {
   color: var(--light);
 }
 .square .cross {
   color: var(--med-light);
 }
-
 h3 {
   color: var(--dark);
   font-family: "fira-code", monospace;
