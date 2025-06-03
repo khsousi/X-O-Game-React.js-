@@ -4,7 +4,6 @@
   --med-light: #255F38;
   --light: #1F7D53;
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -60,5 +59,4 @@ h3 {
   font-weight: bold;
   background-color: var(--light);
   padding: 10px 20px ;
-
 }
