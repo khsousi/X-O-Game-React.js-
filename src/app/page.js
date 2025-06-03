@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Cell from "./Components/Cell";
 
-
 const winningCombs = [
     [0,1,2],
     [3,4,5],
@@ -14,8 +13,6 @@ const winningCombs = [
     [0,4,8],
     [2,4,6]
 ]
-
-
 
 export default function Home() {
 
@@ -30,7 +27,8 @@ export default function Home() {
 
       if (circleWins){
         setWinningMessage("Circle Wins 🎉")
-      }else if (crossWins){
+      }
+      else if (crossWins){
         setWinningMessage("Cross Wins 🎉")
       }
     })
@@ -41,6 +39,7 @@ export default function Home() {
         setWinningMessage("Its A Draw !")
     }
   }, [cells , winningMessage])
+    
   return (
     <div className="container">
       <div className="gameboard">
@@ -53,3 +52,5 @@ export default function Home() {
     </div>
   );
 }
+
+
