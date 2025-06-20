@@ -2,6 +2,7 @@
 
 export default function Cell({go , setGo , id, cells , setCells , cell , winningMessage}) {
   const handleClick = (e)=>{
+    
     if(winningMessage){
       return
     }
@@ -17,12 +18,12 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
       }
   }
     }
-    
   const handleCillChange = (cellToChange)=>{
     let copyCells = [...cells]
     copyCells[id] = cellToChange
     setCells(copyCells)
   }
+  
   return (
     <div className="square" onClick={handleClick}>
       <div className={cell}>
