@@ -3,7 +3,7 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
   const handleClick = (e)=>{
     if(winningMessage){
       return
-    }
+    } 
     const notTaken = !cells[id]
     if (notTaken){
       if (go === "circle"){
