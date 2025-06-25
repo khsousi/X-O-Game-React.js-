@@ -13,7 +13,7 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
       else if (go === "cross"){
         handleCillChange("cross")
         setGo("circle")
-      } 
+      }  
   } 
     }   
   const handleCillChange = (cellToChange)=>{
