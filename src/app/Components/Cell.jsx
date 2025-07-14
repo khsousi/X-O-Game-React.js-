@@ -4,7 +4,7 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
     if(winningMessage){
       return
     }  
-    const notTaken = !cells[id]  
+    const notTaken = !cells[id]   
     if (notTaken){
       if (go === "circle"){
       handleCillChange("circle")
