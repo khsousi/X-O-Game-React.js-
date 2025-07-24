@@ -16,7 +16,7 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
       }  
   } 
     }    
-  const handleCillChange = (cellToChange)=>{
+  const handleCillChange = (cellToChange)=>{ 
     let copyCells = [...cells]
     copyCells[id] = cellToChange
     setCells(copyCells)
