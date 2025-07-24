@@ -1,5 +1,5 @@
 
-export default function Cell({go , setGo , id, cells , setCells , cell , winningMessage}) {
+export default function Cell({go , setGo , id, cells , setCells , cell , winningMessage}) { 
   const handleClick = (e)=>{ 
     if(winningMessage){
       return 
