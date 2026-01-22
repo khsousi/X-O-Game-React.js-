@@ -28,7 +28,8 @@ export default function Cell({go , setGo , id, cells , setCells , cell , winning
         {cell ?(cell === "circle" ? "O" : "X"): ""}
       </div>
     </div>
-  )
+  ) 
 };
+
 
 
